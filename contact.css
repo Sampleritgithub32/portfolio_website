@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.792);
+    
+}
+
+header{
+   
+    height: 70px;
+   
+}
+
+.logo h1{
+
+    color: #fff;
+    margin-top: 19px;
+    margin-left: 20px;
+    font-size: 35px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+     position: fixed;
+
+}
+.navbar{
+    margin-top: 25px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    margin: 35px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+}
+.navbar a:hover{
+    opacity: 0.6;
+    border-bottom: 2px solid skyblue;
+}
+
+.contact-btn button{
+    padding: 10px;
+    margin-top: 18px;
+    margin-right: 25px;
+    font-size: 20px; 
+    
+}
+.btn{
+    border-radius: 20%;
+    background-color:  rgba(0, 0, 0, 0.792);
+    color: skyblue;
+    border: 1px solid skyblue;
+}
+.btn:hover{
+   color: white;
+   background-color: skyblue;
+}
+
+.navbar ul li a{
+    color: rgb(205, 196, 196);
+    font-size: 28px;
+}
+
+.container{
+    background-image: url("image/dynamic-gradient-football-background_23-2149007789.webp");
+  background-size: cover;
+
+  font-size: large;
+ 
+}
+
+ 
+ .form{
+   display: flex;
+   margin: 5% 15% 0;
+ 
+   padding: 5% 5% 20px;
+   width: 60%;
+   color: #fff;
+ }
+ .inf{
+   background-color: white;
+   border-right: 15px solid #fff;
+   color: black;
+   padding: 10px;
+ }
+ .info img{
+   width: 40px;
+   height: 40px;
+   
+ }
+ 
+ 
+ .frm{
+   width: 70%;
+   border-right:15px solid #0f73e6;
+   border-top: 15px solid #0f73e6;
+   padding-top: 10px;
+ }
+ .frm label{
+   margin-left: 20px;
+ }
+ .frm input{
+   padding: 7px;
+   margin-left: 20px;
+   width: 370px;
+   border-top: 2px solid #e18e19 ;
+ }
+ 
+ .frm button{
+   margin-left: 20px;
+   padding: 10px 15px;
+   background-color: #0f73e6;
+   color: #fff;
+   border: 2px solid white;
+ 
+ }
+ .frm button:hover{
+   opacity: 0.6;
+ }
+
+
+ #footer {
+  background: black;
+}
+
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  min-height: 160px;
+  text-align: center;
+}
+
+#footer a {
+  font-size: 20px;
+  color: #fff;
+}
+
+#footer a:hover {
+  opacity: 0.6;
+}
+
+#footer .social {
+  margin: 0.9rem 0;
+}
+
+#footer .social img {
+  width: 30px;
+  height: 30px;
+}
+
+#footer .social a {
+  margin: 0 0.5rem;
+}
+
+#footer p {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+

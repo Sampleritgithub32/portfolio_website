@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.792);
+    height: 900px;
+}
+
+header{
+   
+    height: 80px;
+}
+
+.logo h1{
+
+    color: #fff;
+    margin-top: 19px;
+    margin-left: 20px;
+    font-size: 35px;
+    
+}
+.header{
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+     position: fixed;
+     background-color: black;
+
+}
+.navbar{
+    margin-top: 25px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    margin: 35px;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+}
+.navbar a:hover{
+    opacity: 0.6;
+    border-bottom: 2px solid skyblue;
+}
+
+.contact-btn button{
+    padding: 10px;
+    margin-top: 18px;
+    margin-right: 25px;
+    font-size: 20px; 
+    
+}
+.btn{
+    border-radius: 20%;
+    background-color:  rgba(0, 0, 0, 0.792);
+    color: skyblue;
+    border: 1px solid skyblue;
+}
+.btn:hover{
+   color: white;
+   background-color: skyblue;
+}
+
+.navbar ul li a{
+    color: rgb(205, 196, 196);
+    font-size: 28px;
+}
+
+/* Main class starts */
+
+.main{
+    
+    height: 600px;
+    display: flex;
+    margin-top: 100px;
+}
+.main-content{
+    width: 50%;
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 130px;
+}
+.main-content h3{
+    font-size: 26px;
+}
+.main-content h1{
+    font-size: 42px;
+}
+.main-content p{
+    font-size: 20px;
+}
+
+.main-content span{
+    color: skyblue;
+    font-size: 42px;
+}
+
+.logo1 i{
+    margin-top: 20px;
+    margin: 30px;
+    color: rgb(213, 238, 240);
+    
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.btn1 button{
+    border-radius: 20%;
+    background-color:  rgba(0, 0, 0, 0.792);
+    border: 1px solid skyblue;
+    padding: 10px;
+    margin: 20px;
+}
+
+.profile1 img{
+    
+    width: 750px;
+    height: 500px;
+    margin-top: -80px;
+   margin-right: -50px;
+}
+
+.btn1 button:hover{
+    background-color: rgba(0, 255, 217, 0.903);
+    border-radius: 20%;
+    padding: 10px;
+}
+
+/* About section */
+
+.about{
+    width: 100%;
+    height: 550px;
+    margin-left: 200px;
+    display: flex;
+}
+.prof img{
+    height: 350px;
+    width: 280px;
+    padding: 15px;
+    border-radius: 50%;
+    /* border: 1px solid skyblue; */
+    box-shadow: 0 0 0 8px rgb(186, 222, 237);
+    
+}
+.about-info{
+    margin-left: 290px;
+    line-height: -5px;
+    padding: 10px;
+}
+
+.about-info h1{
+    font-size: 45px;
+    color: #fff;
+}
+#col{
+    color: skyblue;
+}
+.info{
+    margin-top: 10px; 
+}
+.info span{
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+}
+.info p{
+    color: rgb(159, 156, 156);
+    font-size: 19px;
+}
+
+.info-btn{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.info-btn button{
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgba(0, 255, 255, 0.597);
+    border-radius: 8px;
+}
+
+.info-btn button a{
+    text-decoration: none;
+    color: white;
+}
+
+.info-btn button:hover{
+    background-color: rgb(72, 255, 0);
+}
+
+/* services section */
+
+.servi{
+    max-width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.servi h1{
+    color: #fff;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+.servi span{
+    color: skyblue;
+}
+
+.services{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -450px;
+}
+
+.servi-1{
+   
+    height: 350px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 15%;
+}
+.servi-1 i{
+    color: #fff;
+    margin: 40px;
+    border: 1px solid  rgb(236, 235, 233);
+    padding: 30px 10px 30px 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: rgb(10, 222, 180);
+}
+.servi-2 i{
+    color: #fff;
+    margin: 40px;
+    border: 1px solid rgb(236, 235, 233);
+    padding: 30px 10px 30px 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    background-color: rgb(10, 222, 180);
+}
+.servi-3 i{
+    color: #fff;
+    background-color: rgb(94, 222, 180);
+    margin: 40px;
+    border: 1px solid  rgb(236, 235, 233);
+    padding: 30px 10px 30px 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.servi-2{
+   
+    height: 350px;
+    width: 250px;
+    border: 1px solid white;border-radius: 15%;
+}
+.servi-3{
+   
+    height: 350px;
+    width: 250px;
+    border: 1px solid white;border-radius: 15%;
+}
+.servi-1 h2{
+    color: #fff;
+    margin: -20px 20px 20px;
+    
+}
+.servi-2 h2{
+    color: #fff;
+    margin: -20px 20px 20px;
+    
+}
+.servi-3 h2{
+    color: #fff;
+    margin: -20px 20px 20px;
+    
+}
+.servi-1 p{
+    color: #fff;
+    margin:  20px 20px;
+    font-size: 18px;
+    opacity: 0.8;  
+}
+.servi-2 p{
+    color: #fff;
+    margin:  20px 20px;
+    font-size: 18px;
+    opacity: 0.8;  
+}
+.servi-3 p{
+    color: #fff;
+    margin:  20px 20px;
+    font-size: 18px;
+    opacity: 0.8;  
+}
+.con1{
+   
+    background-color: #dbdbdb;
+   border-left:  15px solid #243252;
+    width: 80%;
+    height: 500px;
+    margin: 5%; 
+    padding: 50px;
+    
+}
+.con1 h2{
+    color: black;
+    border-bottom: 5px solid black;
+    
+}
+
+
+.html h3{
+     margin-top: 20px;
+     margin-left: 20px;
+     color: #670bd6;
+    
+}
+.html p{
+    width: 90%;
+    height: 30px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.html span{
+    background-color: orange;
+    padding-bottom: 10px;
+    padding-left: 92%;
+}
+
+.css h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #670bd6;
+   
+}
+.css p{
+   width: 90%;
+   height: 30px;
+   background-color: #ffffff;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.css span{
+   background-color: orange;
+   padding-bottom: 10px;
+   padding-left: 86%;
+}
+.js h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #670bd6;
+   
+}
+.js p{
+   width: 90%;
+   height: 30px;
+   background-color: #ffffff;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.js span{
+   background-color: orange;
+   padding-bottom: 10px;
+   padding-left: 80%;
+}
+
+.C h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #670bd6;
+   
+}
+.C p{
+   width: 90%;
+   height: 30px;
+   background-color: #ffffff;
+   margin-top: 10px;
+   margin-left: 20px;
+}
+.C span{
+   background-color: orange;
+   padding-bottom: 10px;
+   padding-left: 75%;
+}
+
+
+
+.container{
+    background-image: url("image/dynamic-gradient-football-background_23-2149007789.webp");
+  background-size: cover;
+
+  font-size: large;
+ 
+}
+
+ 
+ .form{
+   display: flex;
+   margin: 5% 15% 0;
+ 
+   padding: 5% 5% 20px;
+   width: 60%;
+   color: #fff;
+ }
+ .inf{
+   background-color: white;
+   border-right: 15px solid #fff;
+   color: black;
+   padding: 10px;
+ }
+ .info img{
+   width: 40px;
+   height: 40px;
+   
+ }
+ 
+ 
+ .frm{
+   width: 70%;
+   border-right:15px solid #0f73e6;
+   border-top: 15px solid #0f73e6;
+   padding-top: 10px;
+ }
+ .frm label{
+   margin-left: 20px;
+ }
+ .frm input{
+   padding: 7px;
+   margin-left: 20px;
+   width: 370px;
+   border-top: 2px solid #e18e19 ;
+ }
+ 
+ .frm button{
+   margin-left: 20px;
+   padding: 10px 15px;
+   background-color: #0f73e6;
+   color: #fff;
+   border: 2px solid white;
+ 
+ }
+ .frm button:hover{
+   opacity: 0.6;
+ }
+
+ #footer {
+    background: black;
+  }
+  
+  #footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    min-height: 160px;
+    text-align: center;
+  }
+  
+  #footer a {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  #footer a:hover {
+    opacity: 0.6;
+  }
+  
+  #footer .social {
+    margin: 0.9rem 0;
+  }
+  
+  #footer .social img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #footer .social a {
+    margin: 0 0.5rem;
+  }
+  
+  #footer p {
+    font-size: 20px;
+  }
+
+
+
+
+
+
+
